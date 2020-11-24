@@ -27,3 +27,18 @@ function triArea(base,height){
     return base*height/2
 }
 document.getElementById("h1").innerHTML=triArea(7,11)
+
+function getFirstValue(arrays){
+    return arrays[0]
+}
+document.getElementById("h1").innerHTML=getFirstValue([4,7,11])
+
+function howManySeconds(hour){
+    return hour*3600
+}
+document.getElementById("h1").innerHTML=howManySeconds(4)
+
+function calcAge(age){
+    return age*365
+}
+document.getElementById("h1").innerHTML=calcAge(20)
